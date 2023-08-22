@@ -1,4 +1,4 @@
-// Wrap every letter in a span
+//bem vindo
 var textWrapper = document.querySelector('.ml10 .letters');
 textWrapper.innerHTML = textWrapper.textContent.replace(/\S/g, "<span class='letter'>$&</span>");
 anime.timeline({loop: true})
@@ -8,3 +8,4 @@ anime.timeline({loop: true})
     duration: 2000,
     delay: (el, i) => 100 * i
   });
+  

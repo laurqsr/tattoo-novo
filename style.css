@@ -81,7 +81,6 @@ header {
     top:0;
     left: 0;
     width: 100%;
-    position: fixed;
   }
   
 .logo {
@@ -134,7 +133,6 @@ nav {
     margin: 5%;
     align-content: center;
     justify-content: space-between;
-    margin-top: 10%;
     max-width:100%;
   }
 
@@ -143,10 +141,6 @@ nav {
     max-width: 100%;
     
   }
-  
-  .imgV:hover {
-    transform: scale(1.1);
-  }
 
   .tatuadora_crop {
     width: 200px;
@@ -154,10 +148,6 @@ nav {
     margin-left: 15%;
     transition: transform 0.3s ease;
     max-width:100%;
-  }
-  
-  .tatuadora_crop:hover {
-    transform: scale(1.1);
   }
 
   .background-section {
@@ -258,28 +248,16 @@ p{
 
 }
 
-.lalas:hover{
-  transform: scale(1.1);
-}
-
 .mia{
   margin: 0%;
   width: 235px;
 
 }
 
-.mia:hover{
-  transform: scale(1.1);
-}
-
 .vitz{
   margin: 0%;
   width: 235px;
 
-}
-
-.vitz:hover{
-  transform: scale(1.1);
 }
 
 .lalasnome{
@@ -292,14 +270,12 @@ p{
   color: rgb(255, 255, 255);
   text-align: center;
   font-size: 21px;
-  margin-left: 15vh;
 }
 
 .vitznome{
   color: rgb(255, 255, 255);
   text-align: center;
   font-size: 21px;
-  margin-left: 15vh;
 }
 
 .art {
@@ -314,7 +290,6 @@ p{
 
 h1{
   color: rgb(255, 255, 255);
-  margin-top: 15vh;
   font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   letter-spacing: 60%;
   text-align: center;
@@ -410,7 +385,7 @@ footer a {
   height: 40px;
 }
 
-/*bemvindo.index*/
+/*bemvindo.html*/
 .ml10 {
   font-size: 200%;
 }
@@ -418,3 +393,11 @@ footer a {
 .letter {
   display: inline-block;
 }
+
+/*carrossel*/
+
+.carrossel{
+  text-align: center;
+  position: relative;
+}
+

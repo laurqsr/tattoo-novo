@@ -4,6 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.4/tiny-slider.css">
+  <!--[if (lt IE 9)]><script src="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.4/min/tiny-slider.helper.ie8.js"></script><![endif]-->
+    <script src="./script.js"></script>
     <link rel="icon" href="./img/sigla.png" alt="Sigla da logo do estudio, são 4 letras D, Y, N, S em letra bastão, fonte arial em cor branca"/>
     <title>O ESTUDIO</title>
 </head>
@@ -19,10 +22,26 @@
       <a class="head" href="./artistas.html">ARTISTAS</a>
 </nav>
 </header>
-<div class="oestudio" style="text-align: center;" alt="seção de três fotos, uma do lado da outra">
-<img class="boxstudio" src="./img/ai.jpeg" alt="Uma imagem em preto em branco, um tatuador colando o decalque da tatuagem no cliente">
-<img class="boxstudio" src="./img/int.jpg" alt="Uma imagem em preto e branco de um estúdio de tatuagem, com uma maca, uma mesa com um notebook, tablet e canetas, acompanhada de uma cadeira simples, uma ringlight, que é um círculo de luz e uma prateleira na parede com álcool e diversos produtos que tatuadores utilizam nos atendimentos">
-<img class="boxstudio" src="./img/tint.jpg" alt="Uma imagem em preto e branco com um tatuador recolocando tinta na agulha pelo batoque">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.2/min/tiny-slider.js"></script>
+
+  <div class="carrossel">
+    <div class="aii"><img src="./img/um.jpeg"></div>
+    <div class="aii"><img src="./img/dois.jpeg"></div>
+    <div class="aii"><img src="./img/tres.jpeg"></div>
+</div>
+
+<script type="module">
+  var slider = tns({
+    container: '.carrossel',
+    items: 1, // Quantidade de itens que são exibidos ao mesmo tempo
+    slideBy: 'page',
+    autoplay: true,
+    mouseDrag: true, // Seta se o carousel pode ser rotacionado com o movimento de clicar e arrastar do mouse
+    autoplayButtonOutput: false, // Seta visibilidade do botão de auto play
+    controls: false, // seta visibilidade das setas de controle
+    nav: false // Seta visibilidade da navegação (3 pontinhos)
+  });
+</script>
   
 <div class="tras">
 <div class="oestudiop">
@@ -31,6 +50,7 @@ Nossa equipe de artistas talentosos e experientes é apaixonada por seu ofício 
 </div>
 </div>
 </div>
+
 
 <footer>
   <div class="logo-whatsapp">
@@ -48,6 +68,5 @@ Nossa equipe de artistas talentosos e experientes é apaixonada por seu ofício 
   </div>
 </footer>
 
- 
 </body>
 </html>
