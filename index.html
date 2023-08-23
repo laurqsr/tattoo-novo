@@ -10,17 +10,18 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
 </head>
 <body>
-  <header class="header">
-    <div class="logo">
-      <a href="./index.html">
-        <img src="./img/logo.png" width="20%" alt="Logo do estúdio de tatuagem, denominado Dynasty Tattoo Shop em letra bastão, fonte arial em cor branca">
-      </a>
-    </div>
-    <nav>
-      <a class="head" href="./estudio.html">O ESTÚDIO</a>
-      <a class="head" href="./artistas.html">ARTISTAS</a>
-    </nav>
-  </header>
+  <nav>
+    <ul class="topnav"> <!-- Defina uma classe a Ul -->
+      <li><a href="./index.html">DYNASTY</a></li>
+      <li><a href="./estudio.html">O ESTÚDIO</a></li>
+      <li><a href="./artistas.html">ARTISTAS</a></li>
+      <li class="icon"><!--Inclui o ícone do responsivo na lista-->
+        <a href="javascript:void(0);" onclick="myFunction()">&#9776;
+        </a><!--Chama a função javascript no evento click do icon-->
+      </li>
+    </ul>
+  </nav>
+<script src="./script.js"></script>
 
   <h1 class="ml10">
     <span class="text-wrapper">

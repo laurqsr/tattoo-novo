@@ -8,17 +8,19 @@
     <title>DYNASTY TATTOO SHOP</title>
 </head>
 <body>
-  <header class="header">
-    <div class="logo">
-      <a href="./index.html">
-        <img src="./img/logo.png" width="20%" alt="Logo do estúdio de tatuagem, denominado Dynasty Tattoo Shop em letra bastão, fonte arial em cor branca">
-      </a>
-    </div>
-    <nav>
-      <a class="head" href="./estudio.html">O ESTÚDIO</a>
-      <a class="head" href="./artistas.html">ARTISTAS</a>
-    </nav>
-  </header>
+  <nav>
+    <ul class="topnav"> <!-- Defina uma classe a Ul -->
+      <li><a href="./index.html">DYNASTY</a></li>
+      <li><a href="./estudio.html">O ESTÚDIO</a></li>
+      <li><a href="./artistas.html">ARTISTAS</a></li>
+      <li class="icon"><!--Inclui o ícone do responsivo na lista-->
+        <a href="javascript:void(0);" onclick="myFunction()">&#9776;
+        </a><!--Chama a função javascript no evento click do icon-->
+      </li>
+    </ul>
+  </nav>
+<script src="./script.js"></script>
+
   <div class="box">
     <img src="./img/foto mia 1.jpeg" class="imgV" width="235px" hspace="10" alt="Imagem de uma tatuagem de uma borboleta com as asas abertas em fine line com traço branco localizada no braço">
     <img src="./img/foto mia 2.jpeg" class="imgV" width="235px" hspace="10" alt="Imagem de uma tatuagem de um coração em fine line com traço branco localizada no pulso">

@@ -9,3 +9,7 @@ anime.timeline({loop: true})
     delay: (el, i) => 100 * i
   });
   
+
+  function myFunction() {
+    document.getElementsByClassName("topnav")[0].classList.toggle("responsive");
+  }

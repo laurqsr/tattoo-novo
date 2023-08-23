@@ -8,17 +8,18 @@
     <title>DYNASTY TATTOO SHOP</title>
 </head>
 <body>
-  <header class="headerlalas">
-    <div class="logo">
-      <a href="./index.html">
-        <img src="./img/logo.png" width="20%" alt="Logo do estúdio de tatuagem, denominado Dynasty Tattoo Shop em letra bastão, fonte arial em cor branca">
-      </a>
-    </div>
-    <nav>
-      <a class="head" href="./estudio.html">O ESTÚDIO</a>
-      <a class="head" href="./artistas.html">ARTISTAS</a>
-    </nav>
-  </header>
+  <nav>
+    <ul class="topnav"> <!-- Defina uma classe a Ul -->
+      <li><a href="./index.html">DYNASTY</a></li>
+      <li><a href="./estudio.html">O ESTÚDIO</a></li>
+      <li><a href="./artistas.html">ARTISTAS</a></li>
+      <li class="icon"><!--Inclui o ícone do responsivo na lista-->
+        <a href="javascript:void(0);" onclick="myFunction()">&#9776;
+        </a><!--Chama a função javascript no evento click do icon-->
+      </li>
+    </ul>
+  </nav>
+<script src="./script.js"></script>
 
   <div class="box">
     <img src="./img/lalas1.jpeg" class="imgV" width="235px" hspace="10" alt="Imagem de uma tatuagem de uma fada em fine line com traço preto localizada no braço">
