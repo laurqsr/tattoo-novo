@@ -1,6 +1,6 @@
 //bem vindo
 var textWrapper = document.querySelector('.ml10 .letters');
-textWrapper.innerHTML = textWrapper.textContent.replace(/\S/g, "<span class='letter'>$&</span>");
+textWrapper.innerHTML = textWrapper.textContent.replace(/\S/g, "<span class='letter'>$&</span>");//letra por span
 anime.timeline({loop: true})//biblioteca, animação em loop
   .add({
     targets: '.ml10 .letter', //os alvos da animação, no caso o h1 e o span
